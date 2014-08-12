@@ -23,6 +23,7 @@
 		B12F03FA19995BB10071975B /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12F03F919995BB10071975B /* FavoritePhotosTests.m */; };
 		B12F040519995DEC0071975B /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B12F040419995DEC0071975B /* FlickrPhotoCell.m */; };
 		B12F04081999952D0071975B /* FavoritePhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12F04071999952D0071975B /* FavoritePhotosViewController.m */; };
+		B12F040E199A61FA0071975B /* FavoritePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B12F040D199A61FA0071975B /* FavoritePhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		B12F040419995DEC0071975B /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
 		B12F04061999952D0071975B /* FavoritePhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritePhotosViewController.h; sourceTree = "<group>"; };
 		B12F04071999952D0071975B /* FavoritePhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosViewController.m; sourceTree = "<group>"; };
+		B12F040C199A61FA0071975B /* FavoritePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritePhotoCell.h; sourceTree = "<group>"; };
+		B12F040D199A61FA0071975B /* FavoritePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				B12F03E419995BB10071975B /* ViewController.m */,
 				B12F040319995DEC0071975B /* FlickrPhotoCell.h */,
 				B12F040419995DEC0071975B /* FlickrPhotoCell.m */,
+				B12F040C199A61FA0071975B /* FavoritePhotoCell.h */,
+				B12F040D199A61FA0071975B /* FavoritePhotoCell.m */,
 				B12F03E619995BB10071975B /* Images.xcassets */,
 				B12F03D519995BB10071975B /* Supporting Files */,
 			);
@@ -261,6 +266,7 @@
 			files = (
 				B12F04081999952D0071975B /* FavoritePhotosViewController.m in Sources */,
 				B12F03E519995BB10071975B /* ViewController.m in Sources */,
+				B12F040E199A61FA0071975B /* FavoritePhotoCell.m in Sources */,
 				B12F040519995DEC0071975B /* FlickrPhotoCell.m in Sources */,
 				B12F03DF19995BB10071975B /* AppDelegate.m in Sources */,
 				B12F03DB19995BB10071975B /* main.m in Sources */,

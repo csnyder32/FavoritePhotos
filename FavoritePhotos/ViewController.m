@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "FlickrPhotoCell.h"
 #import "FavoritePhotosViewController.h"
-#define flickrAPIKey @"23dc0a0aaf401c3926b073cfa31eedc8"
+#define flickrAPIKey @"17ce6d25088d5a1ef6571fe5e6f02c95"
 
 
 @interface ViewController ()<UICollectionViewDataSource, UICollectionViewDelegate>
@@ -123,13 +123,14 @@
 - (IBAction)onFavoritesTapped:(id)sender
 {
     [self performSegueWithIdentifier:@"favoriteSegue" sender:self];
-    NSIndexPath *selectedrow = [NSIndexPath new];
-    [self.flickrFavs addObject:selectedrow];
+   
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    if ([segue.identifier isEqual:@"favoriteSegue"]) {
     FavoritePhotosViewController *vc = (FavoritePhotosViewController *)segue.destinationViewController;
     vc.favoriteImages = self.flickrFavs;
+    }
 
 }
 
